@@ -28,6 +28,7 @@ export const Main = () => {
 
   return (
     <section className="main_container">
+      <h1 className="title">Previsão do Tempo</h1>
       <article className={setBackgroundImage(weather_condition)}>
         {!data && (
           <>
